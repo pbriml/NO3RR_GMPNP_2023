@@ -1,6 +1,6 @@
 # NO3RR_GMPNP_2023
 
-This script is an adaptation of Divya Bohra's GMPNP model as referenced below. Please follow Divya's instructions for installing and using the model copied below, or at the [original repo](https://github.com/divyabohra/GMPNP).  
+This script is an adaptation of Divya Bohra's GMPNP model for CO2R, as referenced below. Please follow Divya's instructions for installing and using the model copied below, or at the [original repo](https://github.com/divyabohra/GMPNP). Additionally, if you are planning to use both the PNP and GMPNP approaches, you are recommended to start with Divya's code as the NO3RR code was *not* modified for PNP simulations. 
 
 The environment files have been modified for Python 3, but further modification may be necessary for future users. If you found the NO3RR code useful, please cite both our and Divay's work using the following information: 
 
