@@ -2,7 +2,7 @@
 
 This script is an adaptation of Divya Bohra's GMPNP model as referenced below. Please follow Divya's instructions for installing and using the model copied below, or at the [original repo](https://github.com/divyabohra/GMPNP).  
 
-The environment files have been modified for Python 3, but further modification may be necessary for future users. If you found the NO3RR code useful, please cite using the following information: 
+The environment files have been modified for Python 3, but further modification may be necessary for future users. If you found the NO3RR code useful, please cite both our and Divay's work using the following information: 
 
 Guo et al. : (TO BE UPDATED) 
 
