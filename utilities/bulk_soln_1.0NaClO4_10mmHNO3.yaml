@@ -1,0 +1,45 @@
+bulk_conc_post_NO3:
+  conc_electrolyte: 1.0
+  concentrations:
+    C0_ClO4: 1000.0
+    C0_H: 10
+    C0_NH4: 1.0e-15
+    C0_NO2: 1.0e-15
+    C0_NO3: 10
+    C0_Na: 1000
+    C0_OH: 1.0e-9
+    C0_NH3: 1.0e-15
+    C0_HNO2: 1.0e-15
+  electrolyte: NaClO4_10mmHNO3
+  final_pH: 2
+
+#bulk_conc_post_NO3:
+#  conc_electrolyte: 1.0
+#  concentrations:
+#    C0_ClO4: 10.0
+#    C0_H: 10
+#    C0_NH4: 1.0e-15
+#    C0_NO2: 1.0e-15
+#    C0_NO3: 10
+#    C0_Na: 10
+#    C0_OH: 1.0e-9
+#    C0_NH3: 1.0e-15
+#    C0_HNO2: 1.0e-15
+#  electrolyte: NaClO4_10mmHNO3
+#  final_pH: 2
+
+## alkaline electrolyte...
+#bulk_conc_post_NO3:
+#  conc_electrolyte: 1.0
+#  concentrations:
+#    C0_ClO4: 1000.0
+#    C0_H: 1.0e-14
+#    C0_NH4: 1.0e-19
+#    C0_NO2: 1.0e-19
+#    C0_NO3: 10.0
+#    C0_Na: 1000.0
+#    C0_OH: 1.0e-6
+#    C0_NH3: 1.0e-19
+#    C0_HNO2: 1.0e-19
+#  electrolyte: NaClO4_10mmHNO3
+#  final_pH: 11
