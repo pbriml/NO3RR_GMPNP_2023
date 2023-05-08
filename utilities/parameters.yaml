@@ -1,0 +1,84 @@
+rate_constants:
+    kw1 : 2.4e-2 #molm-3s-1 (NL-3T-1)
+    kw2 : 2.4e+6 #mol-1m3s-1 (N-1L3T-1)
+    ka1 : 3.0e+10 #mol-1m3s-1 (N-1L3T-1)
+    ka2 : 5.6e-9 #mol-1m3s-1 (N-1L3T-1)
+    kb1 : 5.6e-6 #in s-1
+
+diff_coef: #in m2s-1 (L2T-1)
+    D_H : 9.311e-9 
+    D_OH : 5.273e-9
+    D_K : 1.957e-9
+    D_Na : 1.334e-9
+    D_Li : 1.029e-9
+    D_Cs : 2.06e-9
+    D_Cl : 2.032e-9
+    #from here: https://pubs-rsc-org.colorado.idm.oclc.org/en/content/articlepdf/1995/ft/ft9959101877
+    D_ClO4 : 1.44e-9
+    D_NO3 : 1.4066e-9
+    D_NH4 : 1.957e-9  
+    D_NO2 : 1.912e-9
+    D_NH3 : 1.5e-9  #value for gaseous NH3 in water
+    # from here: https://pubs.acs.org/doi/pdf/10.1021/j100038a035 and here: https://www.sciencedirect.com/science/article/pii/S0013468698003442
+    D_HNO2 : 1.85e-9
+
+solv_size: #in m, https://pubs.acs.org/doi/pdf/10.1021/j150579a011
+    a_H : 0.56e-9 
+    a_OH : 0.6e-9
+    a_K : 0.662e-9
+    a_Cs : 0.658e-9
+    a_Na : 0.716e-9
+    a_Li : 0.764e-9
+    a_Cl : 0.664e-9
+    a_ClO4 : 0.676e-9
+    a_NO3 : 0.67e-9
+    a_NO2: 0.7e-9
+    a_NH4: 0.662e-9
+    a_NH3: 0.6e-9 # assuming that it's smaller than NH4+
+    a_HNO2: 0.7e-9  # assuming it's the same as NO2-...
+        
+nat_const:
+    F : 9.6485e+4 #in Cmol-1 (ITN-1)
+    e_0 : 1.602e-19 #in C (IT)
+    N_A : 6.022e+23 #in mol-1 (N-1)
+    k_B : 1.38e-23 #in JK-1 (ML2T-2Theta-1)
+    R : 8.314 #in JK-1mol-1 (ML2T-2Theta-1N-1)
+    eps_0 : 8.85e-12 #in Fm-1 (I2T4M-1L-3)
+    eps_rel : 80.1
+    T : 298.15 #in K(Theta)
+    
+L_diff_default : 2.0e-4 #in m(L), default (overriden by command line)
+
+bulk_conc_default:  #in molm-3 (NL-3) for 1.0 M NaClO4 + 10 mM HNO3 (starting pH=2.00), electrolyte file overrides this
+
+    C0_ClO4: 1000.0
+    C0_H: 1.0e-11
+    C0_NH4: 5.01e-7
+    C0_NO2: 3.5
+    C0_NO3: 5.0
+    C0_Na: 1000.0
+    C0_OH: 1.0e-3
+    C0_NH3: 1.0
+
+sechonov_const: #in m3kmol-1
+# not used for NO3RR
+    h_ion_Li : 0.0754
+    h_ion_Na : 0.1143
+    h_ion_K : 0.0922
+    h_ion_Cl : 0.0318
+    h_ion_ClO4 : 0.032
+    h_ion_OH : 0.0839
+    h_ion_HCO3 : 0.0967
+    h_ion_CO32 : 0.1423
+    h_ion_H2PO4 : 0.0906
+    h_ion_HPO4 : 0.1499
+    h_ion_PO4 : 0.2119
+    h_CO2_0 : -0.0172
+    h_CO2_T : -0.000338
+    h_ion_NO3 : 0.0128
+    h_ion_NO2: 0.0795
+    h_ion_NH4 : 0.0556
+    h_ion_NH3 : -0.0481
+    h_ion_HNO2 : 0.0795  # data unavailable...might need to look into how to calculate this
+    
+    
